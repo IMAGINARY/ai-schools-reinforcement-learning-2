@@ -1,0 +1,16 @@
+{
+  "txt-rewards": "The robot collects rewards and penalties on its way. Give it a try!",
+  "txt-exploration": "The robot can <em>exploit</em> its experience, <em>explore</em> randomly, or use a mix of both strategies. Change the exploration rate with the slider!",
+  "ai-training-view-slider-exploration-rate-limit-min": "Exploit",
+  "ai-training-view-slider-exploration-rate-limit-max": "Explore",
+  "ai-training-view-button-clear": "Restart training",
+  "editor-palette-button-tile-floor": "Floor",
+  "editor-palette-button-tile-wall": "Wall",
+  "editor-palette-button-tile-lava": "Lava",
+  "editor-palette-button-tile-exit": "Exit",
+  "editor-palette-button-tile-candy": "Candy",
+  "editor-palette-button-tile-cone": "Traffic cone",
+  "editor-palette-button-tile-pit": "Pit",
+  "editor-palette-button-action-reset-map": "Reset maze",
+  "rewards-bar-label": "Rewards"
+}

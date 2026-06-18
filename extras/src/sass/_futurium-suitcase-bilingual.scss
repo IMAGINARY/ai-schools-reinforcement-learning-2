@@ -1,0 +1,51 @@
+@mixin sideBySideTr {
+  .i18n-text {
+    display: block;
+    line-height: 1.2;
+
+    &.i18n-text-primary {
+      font-weight: 700;
+    }
+  }
+}
+
+.hold-button {
+  .text {
+    flex-direction: column;
+  }
+}
+
+.maze-editor-palette-bar {
+  .item {
+    .label {
+      @include sideBySideTr;
+    }
+  }
+}
+
+.editor-palette-button-action {
+  @include sideBySideTr;
+}
+
+.ai-training-view-button-clear {
+  @include sideBySideTr;
+}
+
+.rl2-exhibit .ai-training-view-slider .slider-limit {
+  @include sideBySideTr;
+  text-align: center;
+}
+
+.definition {
+  @include sideBySideTr;
+}
+
+.bar-container {
+  display: flex;
+  align-items: center;
+
+  .label {
+    @include sideBySideTr;
+    margin-right: 1.75rem !important;
+  }
+}

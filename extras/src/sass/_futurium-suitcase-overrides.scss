@@ -1,0 +1,87 @@
+#pixi-app-container {
+  canvas {
+    transform-origin: top left;
+    transform: scale(0.5);
+  }
+}
+
+.rl2-exhibit #explore-exploit-ui {
+  position: relative;
+  bottom: auto;
+}
+
+.rl2-exhibit #lang-switcher-container .lang-switcher {
+  top: 25px;
+  left: 0;
+  right: auto;
+  bottom: auto;
+}
+
+$exhibit-long-side: 1180px;
+$exhibit-short-side: 820px;
+
+.rl2-exhibit {
+  @include roboto-regular;
+  width: $exhibit-long-side;
+  height: $exhibit-short-side;
+}
+
+.rl2-exhibit-portrait {
+  width: $exhibit-short-side;
+  height: $exhibit-long-side;
+}
+
+.rl2-exhibit {
+  #rewards-bar {
+    top: 80px;
+    left: 500px;
+
+    .label {
+      @include ui-text;
+    }
+  }
+
+  #rewards-ui {
+    left: 500px;
+    top: 225px;
+  }
+
+  #explore-exploit-ui {
+    position: absolute;
+    top: 208px;
+    left: 460px;
+  }
+
+  #palette .exhibit-maze-editor-palette {
+    top: 50px;
+    left: 60px;
+    bottom: auto;
+  }
+
+  #training-ui {
+    bottom: auto;
+    left: auto;
+    right: 52px;
+    top: 670px;
+  }
+}
+
+#def-candy {
+  left: 676px;
+  top: 226px;
+}
+
+#def-lava {
+  left: 890px;
+  top: 226px;
+}
+
+#def-exit {
+  left: 1040px;
+  top: 226px;
+}
+
+#lang-switcher-container {
+  display: none;
+}
+

@@ -1,0 +1,98 @@
+defaultLanguage: de
+languages:
+  en: "English"
+  de: "Deutsch"
+  nl: "Nederlands"
+#sideBySideTranslation:
+#  - nl
+#  - en
+# Time, in seconds, after which the station will be considered "idle". If a screensaver video is
+# set below, it will start. Otherwise, the exhibit will reload, resetting its state.
+idleTimeout: 300
+# Path to a video file to be used as screensaver. The video will be played in a loop, and has
+# to be compatible to run from a <video> HTML element.
+# screensaverVideo: 'static/screensaver/test.mp4'
+robot:
+  texture: 'static/icons/robot.png'
+  showReactions: true
+tileTypes:
+  1:
+    name: Floor
+    color: '#ffffff'
+    walkable: true
+    reward: -1
+    type: floor
+  2:
+    name: Wall
+    color: '#666666'
+    walkable: false
+    texture: 'static/icons/wall.png'
+    editorIcon: 'static/icons/wall.svg'
+    type: wall
+  3:
+    name: Exit
+    color: '#48df6a'
+    walkable: true
+    exit: true
+    reward: 50
+    texture: 'static/icons/exit.png'
+    editorIcon: 'static/icons/exit.svg'
+    type: exit
+    react: always
+    reaction: 'static/openmoji/trophy.svg'
+    fixed: false
+    inPalette: true
+  4:
+    name: Lava
+    color: '#ff362b'
+    walkable: true
+    reward: -5
+    type: lava
+    react: always
+    reaction: 'static/openmoji/fire.svg'
+    paletteWeight: 5
+  6:
+    name: Pit
+    color: '#ffffff'
+    walkable: true
+    exit: true
+    reward: -50
+    type: pit
+    react: always
+    texture: 'static/icons/pit.png'
+    editorIcon: 'static/icons/pit.svg'
+    paletteWeight: 6
+  5:
+    name: Candy
+    color: '#ffffff'
+    walkable: true
+    reward: -0.2
+    texture: 'static/icons/candy.png'
+    textureVisited: 'static/icons/candy-tr.png'
+    editorIcon: 'static/icons/candy-icon.svg'
+    type: candy
+    react: once
+    reaction: 'static/openmoji/red-heart.svg'
+    paletteWeight: 4
+render:
+  resolutionScale: 2
+  tileSize: 120
+pixiOptions:
+  antialias: true
+  resolution: 2
+panels:
+  editor:
+    policyOverlayAlwaysVisible: false
+    policyOverlayShowArrows: true
+    policyOverlayShowText: true
+    policyOverlayShowBackground: true
+    aiResetButtonResetsMaze: false
+  training:
+    useToggleFFButton: false
+    useToggleViewPolicyButton: true
+    aiResetButtonResetsExplorationRate: true
+ui:
+  maze:
+    startCellStrokeSize: 10
+    startCellStrokeColor: '#75fb5c'
+    startCellFillColor: '#ffffff'

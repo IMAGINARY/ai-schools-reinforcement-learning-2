@@ -1,0 +1,30 @@
+.text-explanation {
+  position: absolute;
+  width: 360px;
+  margin-left: 60px;
+  z-index: 1100;
+  pointer-events: none;
+  font-size: 1.25rem;
+  font-weight: 400;
+
+  .i18n-text {
+    margin-bottom: 1.5rem;
+    display: block;
+  }
+
+  .i18n-text-primary {
+    font-weight: bold;
+  }
+
+  .i18n-text-secondary {
+    font-size: 0.9em;
+  }
+}
+
+#txt-rewards {
+  top: 80px;
+}
+
+#txt-exploration {
+  top: 400px;
+}

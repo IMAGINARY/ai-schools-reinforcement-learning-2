@@ -1,0 +1,83 @@
+@use "futurium-suitcase-colors" as colors;
+
+.theme-dark {
+  background-color: colors.$fs-black;
+  color: colors.$fs-white;
+
+  .maze-editor-palette {
+    .maze-editor-palette-bar {
+      background-color: transparent;
+
+      .item {
+        margin: 14px 0 14px;
+
+        .label {
+          margin-left: 10px;
+        }
+      }
+
+      .editor-palette-button {
+        border: 6px solid white;
+        margin: 0;
+
+        &.active {
+          border-color: colors.$fs-yellow;
+          outline: none;
+          width: 55px;
+          height: 55px;
+          transform-origin: center center;
+          scale: 1.2;
+        }
+      }
+    }
+  }
+
+  .ai-training-view {
+    button {
+      background-color: white;
+
+      &.active {
+        background-color: colors.$fs-yellow;
+      }
+    }
+  }
+
+  $slider-track-height: 1rem;
+  $thumb-height: 2rem;
+  $thumb-width: 1.5rem;
+
+  // Webkit
+
+  input[type="range"]::-webkit-slider-runnable-track {
+    background-color: colors.$fs-gray;
+    height: $slider-track-height;
+  }
+
+  input[type="range"]::-webkit-slider-thumb { /* Override default look */
+    background-color: colors.$fs-blue;
+    margin-top: ($thumb-height - $slider-track-height) * -0.5 !important;
+    border: 1.5px solid black;
+    width: $thumb-width;
+    height: $thumb-height;
+  }
+
+  input[type="range"]:focus::-webkit-slider-thumb {
+    outline: 3px solid colors.$fs-yellow;
+  }
+
+  // Firefox
+
+  input[type="range"]::-moz-range-track {
+    background-color: colors.$fs-gray;
+    height: $slider-track-height;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    background-color: colors.$fs-blue;
+  }
+
+  input[type="range"]:focus::-moz-range-thumb {
+    border: 2px solid colors.$fs-black;
+    outline: 3px solid colors.$fs-yellow;
+  }
+}

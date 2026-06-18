@@ -1,0 +1,26 @@
+{
+  "name": "ai-schools-suitcase-reinforcement-learning-2",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.html",
+  "dependencies": {
+    "@fontsource/roboto": "^5.1.1",
+    "cpx": "^1.5.0",
+    "degit": "^2.8.4"
+  },
+  "engines": {
+    "node": ">=24.4.1"
+  },
+  "scripts": {
+    "copy-font": "cp -R ./node_modules/@fontsource/roboto/ ./dist/vendor/roboto",
+    "remove-files": "rm ./dist/exhibit.html ./dist/embed.html",
+    "watch:copy": "cpx './extras/**' './dist/' -vw",
+    "watch:compile": "cd ./dist && npm run watch",
+    "build": "rm -rf ./dist && degit github:IMAGINARY/reinforcement-learning-2#v1.17.2 --force dist && npm run copy-font && npm run remove-files && cp -R ./extras/. ./dist/. && cd ./dist && npm install && npm run build && cd .."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IMAGINARY/ai-schools-suitcase-reinforcement-learning-2.git"
+  },
+  "private": false
+}

@@ -1,0 +1,16 @@
+{
+  "txt-rewards": "De robot verzamelt onderweg beloningen en strafpunten.<br>Probeer het eens!",
+  "txt-exploration": "De robot kan zijn ervaring uitbuiten (<em>exploit</em>), willekeurig ontdekken (<em>explore</em>) of een combinatie van beide strategieën gebruiken. Door de schuifknop naar rechts te verplaatsen, word de robot nieuwsgieriger.",
+  "ai-training-view-slider-exploration-rate-limit-min": "Uitbuiten",
+  "ai-training-view-slider-exploration-rate-limit-max": "Ontdekken",
+  "ai-training-view-button-clear": "Opnieuw trainen",
+  "editor-palette-button-tile-floor": "Vloer",
+  "editor-palette-button-tile-wall": "Muur",
+  "editor-palette-button-tile-lava": "Lava",
+  "editor-palette-button-tile-exit": "Uitgang",
+  "editor-palette-button-tile-candy": "Snoepjes",
+  "editor-palette-button-tile-cone": "Verkeerskegel",
+  "editor-palette-button-tile-pit": "Valkuil",
+  "editor-palette-button-action-reset-map": "Doolhof terugzetten",
+  "rewards-bar-label": "Beloningen"
+}

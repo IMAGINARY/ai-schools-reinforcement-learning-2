@@ -1,0 +1,23 @@
+@use "../../vendor/roboto/scss/mixins" as Roboto;
+
+@include Roboto.faces($weights: 400, $display: auto, $directory: "/vendor/roboto/files");
+@include Roboto.faces($weights: 500, $display: auto, $directory: "/vendor/roboto/files");
+@include Roboto.faces($weights: 700, $display: auto, $directory: "/vendor/roboto/files");
+
+@mixin roboto-regular {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@mixin roboto-medium {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@mixin roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

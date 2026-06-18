@@ -1,0 +1,138 @@
+@import "futurium-suitcase-colors";
+
+$large-round-button-size: 72px;
+$medium-round-button-size: 52px;
+
+.ai-training-view {
+  display: flex;
+  align-items: center;
+
+  .ai-training-view-slider-exploration-rate {
+    top: 1.2rem;
+    margin: 0 1.2rem;
+  }
+}
+
+@mixin ui-text {
+  @include roboto-regular;
+  font-size: 1rem;
+}
+
+.rl2-exhibit {
+  #rewards-ui .ai-training-view-button-step {
+    width: 60px;
+    height: 60px;
+  }
+
+  .ai-training-view-button {
+    border: none;
+    bottom: 0;
+    margin: 0 8px 0 8px;
+
+    &.active {
+      //background-color: $tl-green-bright;
+    }
+  }
+
+  .ai-training-view-button-run {
+    margin-right: 0.25rem;
+    width: $large-round-button-size;
+    height: $large-round-button-size;
+  }
+
+  .ai-training-view-button-turbo,
+  .ai-training-view-button-view-policy {
+    width: $medium-round-button-size;
+    height: $medium-round-button-size;
+  }
+
+  .ai-training-view-button-clear {
+    @include ui-text;
+    width: 9em;
+  }
+
+  .ai-training-view-slider {
+    .slider-input {
+      input {
+        width: calc(100% - 6.5em);
+        margin-left: 3.25em;
+      }
+    }
+
+    .slider-limit {
+      @include ui-text;
+      bottom: -1em;
+      padding-bottom: 2rem;
+      padding-top: 3.75rem;
+      pointer-events: none;
+    }
+
+    .slider-limit.slider-limit-min {
+      background-position: 1.45rem 1.6rem;
+    }
+
+    .slider-limit.slider-limit-max {
+      background-position: center 1.5em;
+    }
+  }
+}
+
+.ai-training-view-slider-exploration-rate .slider-text {
+  .slider-limit {
+    background-size: 2rem;
+  }
+
+  .slider-limit-min {
+    background-size: 2.3rem;
+  }
+}
+
+.maze-editor-palette .maze-editor-palette-bar {
+  margin-left: 0.4rem;
+
+  .editor-palette-button {
+    width: 55px;
+    height: 55px;
+  }
+
+  .item .label {
+    width: 6em;
+    margin-top: -0.3rem;
+    @include ui-text;
+  }
+}
+
+.definition {
+  position: absolute;
+  padding-left: 1.4em;
+
+  @include ui-text;
+
+  &:before {
+    content: " ";
+    display: block;
+    width: 1.4em;
+    height: 1.4em;
+    margin-left: -1.5em;
+    margin-bottom: -0.75em;
+    background-image: url('../../static/icons/l-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+  }
+}
+
+.maze-editor-palette .editor-palette-button-action-reset-map {
+  padding: 0.3em 0.1em;
+  margin-top: 1.25rem;
+  width: 12rem;
+}
+
+.ai-training-view-button-clear {
+  box-sizing: content-box;
+  padding: 0.1rem 0;
+}
+
+.ai-training-view-button-view-policy {
+  margin-right: 0.4em;
+}

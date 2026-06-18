@@ -1,0 +1,16 @@
+{
+  "txt-rewards": "Der Roboter sammelt auf seinem Weg Belohnungen und Bestrafungen.  Probiere es aus!",
+  "txt-exploration": "Der Roboter kann seine Erfahrungen <em>ausnutzen</em>, zufällig <em>erkunden</em> oder eine Mischung aus beiden Strategien anwenden. Verändere die Erkundungsrate mit dem Slider!",
+  "ai-training-view-slider-exploration-rate-limit-min": "Ausnutzen",
+  "ai-training-view-slider-exploration-rate-limit-max": "Erkunden",
+  "ai-training-view-button-clear": "Neustart Training",
+  "editor-palette-button-tile-floor": "Boden",
+  "editor-palette-button-tile-wall": "Wand",
+  "editor-palette-button-tile-lava": "Lava",
+  "editor-palette-button-tile-exit": "Ausgang",
+  "editor-palette-button-tile-candy": "Bonbon",
+  "editor-palette-button-tile-cone": "Verkehrshütchen",
+  "editor-palette-button-tile-pit": "Grube",
+  "editor-palette-button-action-reset-map": "Labyrinth zurücksetzen",
+  "rewards-bar-label": "Belohnung"
+}
