@@ -24,11 +24,7 @@ The file `webpack.entry-points.json` is included into `reinforcement-learning-2`
 configuration. It defines the entry points (the top level JavaScript files) for the application, 
 and the associated HTML files where the application will be injected.
 
-The app is split in two independent stations, and we also a "demo" `index.html` that shows both
-side by side (useful for development).
-
-These entry points do the "assembling" of the reinforcement learning components that we want on
-each screen.
+The app has a single entry point, `index.html` that shows the map editor component.
 
 ### Configuration
 
