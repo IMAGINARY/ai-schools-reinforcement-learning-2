@@ -3,6 +3,9 @@ languages:
   en: "English"
   de: "Deutsch"
   nl: "Nederlands"
+  el: "Ελληνικά"
+  fr: "Français"
+  it: "Italiano"
 #sideBySideTranslation:
 #  - nl
 #  - en

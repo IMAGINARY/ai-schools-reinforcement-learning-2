@@ -1,0 +1,16 @@
+{
+  "txt-rewards": "Il robot raccoglie ricompense e penalità sur suo cammino. Fate una prova!",
+  "txt-exploration": "Il robot può em>sfruttare</em> la sua esperienza, <em>esplorare</em> casualmente, oppure combinare le due strategie. Regolate la percentuale di esplorazione con il cursore!",
+  "ai-training-view-slider-exploration-rate-limit-min": "Esplorare",
+  "ai-training-view-slider-exploration-rate-limit-max": "Sfruttare",
+  "ai-training-view-button-clear": "Ricominciare l'allenamento",
+  "editor-palette-button-tile-floor": "Pavimento",
+  "editor-palette-button-tile-wall": "Muro",
+  "editor-palette-button-tile-lava": "Lava",
+  "editor-palette-button-tile-exit": "Uscita",
+  "editor-palette-button-tile-candy": "Caramella",
+  "editor-palette-button-tile-cone": "Cono stradale",
+  "editor-palette-button-tile-pit": "Fosso",
+  "editor-palette-button-action-reset-map": "Reinizializzare il labirinto",
+  "rewards-bar-label": "Ricompense"
+}

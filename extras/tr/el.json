@@ -1,0 +1,16 @@
+{
+  "txt-rewards": "Το ρομπότ συλλέγει επιβραβεύσεις και ποινές στη διαδρομή του. Δοκιμάστε το!",
+  "txt-exploration": "Το ρομπότ μπορεί να <em>εκμεταλλευτεί</em> την εμπειρία του, να <em>εξερευνήσει</em> τυχαία, ή να χρησιμοποιήσει έναν συνδυασμό των δύο στρατηγικών. Αλλάξτε τον ρυθμό εξερεύνησης με τον ολισθητή!",
+  "ai-training-view-slider-exploration-rate-limit-min": "Εκμετάλλευση",
+  "ai-training-view-slider-exploration-rate-limit-max": "Εξερεύνηση",
+  "ai-training-view-button-clear": "Επανεκκίση",
+  "editor-palette-button-tile-floor": "Πάτωμα",
+  "editor-palette-button-tile-wall": "Τοίχος",
+  "editor-palette-button-tile-lava": "Λάβα",
+  "editor-palette-button-tile-exit": "Έξοδος",
+  "editor-palette-button-tile-candy": "Καραμέλα",
+  "editor-palette-button-tile-cone": "Κώνος κυκλοφορίας",
+  "editor-palette-button-tile-pit": "Λάκκος",
+  "editor-palette-button-action-reset-map": "Επαναφορά λαβυρίνθου",
+  "rewards-bar-label": "Επιβραβεύσεις"
+}

@@ -1,0 +1,16 @@
+{
+  "txt-rewards": "Le robot collecte des récompenses et des pénalités sur son chemin. Essayez par vous-mêmes !",
+  "txt-exploration": "Le robot peut <em>exploiter</em> son expérience, <em>explorer</em> aléatoirement, ou utiliser un mélange des deux stratégies. Changez le taux d'exploration avec le curseur !",
+  "ai-training-view-slider-exploration-rate-limit-min": "Exploit",
+  "ai-training-view-slider-exploration-rate-limit-max": "Explore",
+  "ai-training-view-button-clear": "Réinitialisez",
+  "editor-palette-button-tile-floor": "Sol",
+  "editor-palette-button-tile-wall": "Mur",
+  "editor-palette-button-tile-lava": "Lave",
+  "editor-palette-button-tile-exit": "Sortie",
+  "editor-palette-button-tile-candy": "Bonbon",
+  "editor-palette-button-tile-cone": "Cône de signalisation",
+  "editor-palette-button-tile-pit": "Trou",
+  "editor-palette-button-action-reset-map": "Réinitialisez",
+  "rewards-bar-label": "Récompenses"
+}
