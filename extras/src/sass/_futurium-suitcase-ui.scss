@@ -136,3 +136,31 @@ $medium-round-button-size: 52px;
 .ai-training-view-button-view-policy {
   margin-right: 0.4em;
 }
+
+.rl2-exhibit .lang-dropmenu {
+  position: absolute;
+  left: 60px;
+  bottom: 83px;
+  z-index: 250;
+
+  .lang-dropmenu-trigger {
+    padding: 0.25em 0.1em;
+    background: none;
+    border: none;
+    box-shadow: none;
+    line-height: 0;
+
+    &::after {
+      display: none;
+    }
+
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  .dropdown-item {
+    @include ui-text;
+  }
+}

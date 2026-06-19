@@ -4,6 +4,7 @@ const PixiCompositeApp = require('./view-pixi/pixi-composite-app');
 const ExploreExploitInteractive = require('./components/interactive-explore-exploit');
 const RewardsInteractive = require('./components/interactive-rewards');
 const MapEditorInteractive = require('./components/interactive-map-editor');
+const LangDropMenu = require('./components/lang-dropmenu');
 const runExhibit = require('./run-exhibit');
 require('../sass/futurium-suitcase.scss');
 
@@ -37,4 +38,7 @@ runExhibit((config, textures) => {
   );
   mapEditorInteractive.setupKeyControls();
   $('#palette').append(mapEditorInteractive.$element);
+
+  const langDropMenu = new LangDropMenu(config);
+  $('#lang-menu').append(langDropMenu.$element);
 });
