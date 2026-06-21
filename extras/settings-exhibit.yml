@@ -1,11 +1,12 @@
 defaultLanguage: de
 languages:
-  en: "English"
   de: "Deutsch"
-  nl: "Nederlands"
   el: "Ελληνικά"
+  en: "English"
+  es: "Español"
   fr: "Français"
   it: "Italiano"
+  nl: "Nederlands"
 #sideBySideTranslation:
 #  - nl
 #  - en
