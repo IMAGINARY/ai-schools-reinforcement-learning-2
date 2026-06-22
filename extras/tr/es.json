@@ -3,7 +3,7 @@
   "txt-exploration": "El robot puede <em>explotar</em> su experiencia, <em>explorar</em> aleatoriamente o usar una mezcla de ambas estrategias. Cambia la tasa de exploración con el control deslizante.",
   "ai-training-view-slider-exploration-rate-limit-min": "Explotar",
   "ai-training-view-slider-exploration-rate-limit-max": "Explorar",
-  "ai-training-view-button-clear": "Reiniciar entrenamiento",
+  "ai-training-view-button-clear": "Reiniciar el entrenamiento",
   "editor-palette-button-tile-floor": "Suelo",
   "editor-palette-button-tile-wall": "Pared",
   "editor-palette-button-tile-lava": "Lava",
@@ -11,6 +11,6 @@
   "editor-palette-button-tile-candy": "Caramelo",
   "editor-palette-button-tile-cone": "Cono de tráfico",
   "editor-palette-button-tile-pit": "Pozo",
-  "editor-palette-button-action-reset-map": "Revertir laberinto",
+  "editor-palette-button-action-reset-map": "Revertir el laberinto",
   "rewards-bar-label": "Recompensas"
 }
