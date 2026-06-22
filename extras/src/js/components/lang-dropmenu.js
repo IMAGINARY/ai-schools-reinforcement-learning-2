@@ -31,6 +31,9 @@ class LangDropMenu {
         .on('click', () => {
           i18n.setLanguage(code);
           this.setActiveLanguage(code);
+          const url = new URL(window.location.href);
+          url.searchParams.set('lang', code);
+          window.history.replaceState(null, '', url);
         });
       this.$menu.append($item);
       this.items[code] = $item;
