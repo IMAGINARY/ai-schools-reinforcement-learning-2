@@ -1,3 +1,5 @@
+@use "futurium-suitcase-font" as font;
+
 #pixi-app-container {
   canvas {
     transform-origin: top left;
@@ -21,7 +23,7 @@ $exhibit-long-side: 1180px;
 $exhibit-short-side: 820px;
 
 .rl2-exhibit {
-  @include roboto-regular;
+  @include font.roboto-medium;
   width: $exhibit-long-side;
   height: $exhibit-short-side;
 }

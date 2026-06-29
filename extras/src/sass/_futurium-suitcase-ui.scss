@@ -1,7 +1,12 @@
-@import "futurium-suitcase-colors";
+@use "futurium-suitcase-font" as font;
 
 $large-round-button-size: 72px;
 $medium-round-button-size: 52px;
+
+button {
+  @include font.roboto-regular;
+  line-height: 1.25;
+}
 
 .ai-training-view {
   display: flex;
@@ -14,7 +19,7 @@ $medium-round-button-size: 52px;
 }
 
 @mixin ui-text {
-  @include roboto-regular;
+  @include font.roboto-medium;
   font-size: 1rem;
 }
 
@@ -47,15 +52,16 @@ $medium-round-button-size: 52px;
   }
 
   .ai-training-view-button-clear {
-    @include ui-text;
     width: 9em;
   }
 
   .ai-training-view-slider {
     .slider-input {
+
       input {
-        width: calc(100% - 6.5em);
-        margin-left: 3.25em;
+        width: calc(100% - 6.7em);
+        margin-left: 3.35em;
+        padding-top: 0.6em;
       }
     }
 
@@ -65,10 +71,13 @@ $medium-round-button-size: 52px;
       padding-bottom: 2rem;
       padding-top: 3.75rem;
       pointer-events: none;
+      text-align: center;
+      width: 4.2rem;
     }
 
     .slider-limit.slider-limit-min {
-      background-position: 1.45rem 1.6rem;
+      background-size: 2.6rem;
+      background-position: 1.15rem 1.7rem;
     }
 
     .slider-limit.slider-limit-max {
@@ -161,6 +170,6 @@ $medium-round-button-size: 52px;
   }
 
   .dropdown-item {
-    @include ui-text;
+    @include font.roboto-regular;
   }
 }

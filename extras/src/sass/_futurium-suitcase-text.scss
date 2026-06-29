@@ -1,3 +1,5 @@
+@use "futurium-suitcase-font" as font;
+
 .text-explanation {
   position: absolute;
   width: 360px;
@@ -13,7 +15,7 @@
   }
 
   .i18n-text-primary {
-    font-weight: bold;
+    @include font.roboto-medium;
   }
 
   .i18n-text-secondary {
